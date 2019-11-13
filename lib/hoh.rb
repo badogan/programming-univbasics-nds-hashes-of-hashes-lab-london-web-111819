@@ -18,25 +18,26 @@ def naming_system
   # HoH all the way to Species!
   
  PORTION_1 = {
-   label: "Kingdom",
-   sub_category: {
-     label: "Phylum",
-     sub_category: {
-       label: "Class",
+   :label=>"Kingdom",
+   :sub_category=>{
+     :label=>"Phylum",
+     :sub_category=>{
+       :label=>"Class",
        PORTION_2
      }
    }
  }
  
  PORTION_2 = {
-   label: "Order",
+   :label=>"Order",
    PORTION_3
  }
  
  PORTION_3 = {
-   label: "Family",
-   sub_category: {
-     label: "Genus",
+   :label=>"Family",
+   :sub_category=>
+   {
+     :label=>"Genus",
      PORTION_4
    }
  }
@@ -45,7 +46,7 @@ def naming_system
     :label=>"Species",
     :sub_category=>nil
     }
-  #puts "here"
+    
   return PORTION_1
 end
 
