@@ -42,8 +42,8 @@ def naming_system
  }
 
   PORTION_4 = {
-    label: "Species",
-    sub_category: nil
+    :label=>"Species",
+    :sub_category=>nil
     }
   #puts "here"
   return PORTION_1
