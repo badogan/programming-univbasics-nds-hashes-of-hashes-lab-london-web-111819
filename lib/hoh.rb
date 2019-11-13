@@ -19,7 +19,7 @@ def naming_system
 
 PORTION_4 = {}
 PORTION_4[:label]="Species"
-PORTION_4[:sub_category]=nil
+#PORTION_4[:sub_category]=nil
 
 PORTION_3 = {}
 PORTION_3[:label] = "Family"
